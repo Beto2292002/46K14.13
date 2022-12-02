@@ -1,0 +1,154 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/bg.png);
+    background-size: cover;
+    font-family: "Raleway",sans-serif;
+  }
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 10px 100px 5px rgb(159, 158, 158);
+  }
+
+  .otp{
+    text-align: center;
+  }
+.otp
+{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.otp input
+{
+    width: 60px;
+    height: 65px;
+    font-size: 24px;
+    margin: 2px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: 2px solid #414042;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    transition: all .3s ease;
+}
+.otp input:focus
+{
+    border: 2px solid #3c3b3d;
+    box-shadow: 0 0 4px 4px #52525361;
+    text-align: center;
+}
+.spacing
+{
+    margin-right: 1rem !important;
+}
+button
+{
+    padding: 15px 55px;
+    background-color: #faf8fb;
+    color: rgb(60, 59, 59);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: all .3s;
+}
+
+button:active
+
+{
+    transform: scale(.9);
+} 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1c1c1b;
+    color: rgb(13, 12, 12);
+    font-size: 10px;
+    font-weight:lighter;
+}
+.otp
+{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.otp input
+{
+    width: 60px;
+    font-size: 24px;
+    margin: 2px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: 0.5px solid #27212d;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(24, 24, 24);
+    transition: all .3s ease;
+}
+.otp input:focus
+{
+    border: 0.5px solid #858484;
+    box-shadow: 0 0 4px 4px #11111161;
+}
+.spacing
+{
+    margin-right: 1rem !important;
+}
+button
+{
+    padding: 15px 55px;
+    background-color: #030303;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 45px;
+    transition: all .3s;
+}
+button:active
+{
+    transform: scale(.9);
+}
+
+body a{
+    color:white;
+    text-decoration: none;
+}
