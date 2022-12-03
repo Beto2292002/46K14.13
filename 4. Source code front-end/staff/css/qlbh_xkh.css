@@ -1,0 +1,80 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Times:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Times", sans-serif;
+}
+
+body{
+  background-image: url(/bg1.png);
+  background-size: cover;
+  height:100vh;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 5px 10px 100px 5px rgb(159, 158, 158);
+}
+
+
+.box h5{
+  font-size: 20px;
+  margin-top: 30px;
+  padding:15px;
+}
+.box h6{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+
+
+.input{
+  text-align: center;
+}
+.input input{
+  font-family: "Raleway",sans-serif;
+  text-decoration: none;
+  width: 400px;
+  margin: 15px auto;
+  border: none;
+  outline: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  font-size: 14px;
+  box-sizing: border-box;
+  box-shadow: -5px 5px 50px 0 #dbdcdd;
+  
+}
+
+.button button{
+  margin: 40px auto;
+  display: block;
+  padding: 5px 5px;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #030303, #000000);
+}
+
+.button a{
+  color:#ffffff;
+}

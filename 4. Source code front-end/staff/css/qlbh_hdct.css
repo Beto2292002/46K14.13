@@ -99,7 +99,7 @@ nav{
 .side_navbar a{
   margin-top:20px;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   font-weight: 500;
   font-size: 16px;
   color: rgb(100, 100, 100);
@@ -122,9 +122,8 @@ nav{
 .history_lists{
   align-items: center;
   justify-content: space-between;
-  margin-right: 300px;
+  margin-right: 250px;
   margin-top: 200px;
-  margin-left: -100px;
 
 }
 .row{
